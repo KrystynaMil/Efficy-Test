@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    margin: 20px 20px;
+}
+
+/*  Right align the success value*/
+input {
+    text-align: right;
+  
+}
+
+/* Display the Submit button in it's own box. Add some spacing around the element.*/
+button {
+    display:flex;
+    margin: 20px 0;
+}
+
+/* Set a mono-space font on the output <div> so we have a better view on the generated JSON output.*/
+div {
+    font-family: monospace, sans-serif;
+    margin: 20px 20px;
+}
